@@ -1,0 +1,18 @@
+@font-face { font-family: thefont; src: url('../vcr.ttf'); } 
+  
+body{
+    background-color: black;
+    font-family: thefont;
+    font-size: xx-large;
+    color: white;
+     }
+
+a {
+    background-color: white;
+    color: black;
+}
+
+a#disabled {
+    background-color: rgb(22, 22, 22);
+    color: black;
+}
