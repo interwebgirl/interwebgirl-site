@@ -3,7 +3,7 @@
 body{
     background-size: cover;
     background-image: url("./art/background.png");
-    color: black;
+    color: #363636;
     font-family: thefont;
     font-size: larger;
      }
@@ -12,7 +12,6 @@ body{
 a {
   margin: 5px;
   padding:5px;
-  color: #363636
 }
 
 a.link {
@@ -35,7 +34,8 @@ nav.navbar {
   margin: auto;
   background-color: #ebebeb;
   padding: 10px;
-  max-width: 50%;
+  width: 95%;
+  max-width: 650px;
   padding-bottom: 45px;
   position: relative;
   }
