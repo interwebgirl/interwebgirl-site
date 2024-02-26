@@ -1,8 +1,8 @@
-@font-face { font-family: thefont; src: url('../vcr.ttf'); } 
+@font-face { font-family: vcr; src: url('../fonts/vcr.ttf'); } 
   
 body{
     background-color: black;
-    font-family: thefont;
+    font-family: vcr;
     font-size: xx-large;
     color: white;
      }

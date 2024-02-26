@@ -1,10 +1,10 @@
-@font-face { font-family: thefont; src: url('./vcr.ttf'); } 
+@font-face { font-family: petscop; src: url('./fonts/PetscopWide.ttf'); } 
 
 body{
     background-size: cover;
     background-image: url("./art/background.png");
     color: #363636;
-    font-family: thefont;
+    font-family: petscop;
     font-size: larger;
      }
 
@@ -19,10 +19,11 @@ a.link {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
+/* not used yet. shhhh */
 nav.navbar { 
   background-color: #ebebeb; 
   border-radius: 0;
@@ -34,7 +35,7 @@ nav.navbar {
   margin: auto;
   background-color: #ebebeb;
   padding: 10px;
-  width: 95%;
+  width: 100%;
   max-width: 650px;
   padding-bottom: 45px;
   position: relative;
