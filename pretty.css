@@ -28,15 +28,16 @@ nav.navbar {
   background-color: #ebebeb; 
   border-radius: 0;
   border: none; 
-  max-height: 50px; }
+  max-height: 50px; 
+}
 
 
  .content {
   margin: auto;
   background-color: #ebebeb;
   padding: 10px;
-  width: 100%;
-  max-width: 650px;
+  width: 650px;
+  max-width: 95%;
   padding-bottom: 45px;
   position: relative;
   }
