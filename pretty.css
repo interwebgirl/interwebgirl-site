@@ -28,9 +28,15 @@ img {
   background-color: #ebebeb; 
   border-radius: 0;
   border: none; 
-  max-height: 50px;
+  max-height: 75px;
   margin: auto;
   padding: 0;
+}
+
+a.navlink {
+  font-size: 50px;
+  color: #afafaf;
+  margin:auto;
 }
 
 
