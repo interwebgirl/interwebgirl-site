@@ -33,22 +33,6 @@ img {
   padding: 0;
 }
 
-.navlink {
-  font-size: xx-large;
-  color: #ebebeb;
-  margin:auto;
-}
-
-.navlink:hover {
-  color: #676767;
-}
-
-a.navlink {
-  font-size: xx-large;
-  color: #afafaf;
-  margin:auto;
-}
-
 
  .content {
   margin: auto;
