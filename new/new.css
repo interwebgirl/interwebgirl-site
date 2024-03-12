@@ -10,10 +10,11 @@ body
 }
 
 
-.holder
+.container
 {
     max-width: 100%;
-    width:650px
+    width:650px;
+    background-color:#69b00b;
 }
 
 .side
