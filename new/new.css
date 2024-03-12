@@ -1,0 +1,23 @@
+@font-face { font-family: petscop; src: url('../fonts/PetscopWide.ttf'); } 
+
+body
+{
+    font-family: petscop;
+    font-size: large;
+    display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.holder
+{
+    max-width: 100%;
+    width:650px
+}
+
+.side
+{
+    max-width: 300px;
+
+}
