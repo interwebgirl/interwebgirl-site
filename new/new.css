@@ -26,6 +26,7 @@ body
 
 .sideside
 {
+    align-items: center;
     max-width: 350px;
     width:100%;
     background-color:#ebebeb
@@ -39,7 +40,6 @@ body
 
 img.icon
 {
-    align-items: center;
     max-width:50%;
     width:256px;
 }
