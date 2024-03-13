@@ -15,17 +15,36 @@ body
 {
     max-width: 100%;
     width:650px;
-    background-color:#69b00b;
 }
 
 .side
 {
     max-width: 300px;
-    background-color:#ebebeb;
+    width: 100%;
+    background-color:#c4c4c4;
+}
+
+.sideside
+{
+    max-width: 350px;
+    width:100%;
+    background-color:#ebebeb
+}
+
+.main
+{
+    max-width:650px;
+    width:100%;
 }
 
 img.icon
 {
+    align-items: center;
     max-width:50%;
     width:256px;
+}
+
+a, a.hover, a.visited
+{
+    color:#b00b69;
 }
