@@ -1,0 +1,54 @@
+@font-face { font-family: petscop; src: url('./fonts/PetscopWide.ttf'); } 
+
+body
+{
+    font-family: petscop;
+    font-size: x-large;
+	justify-content: center;
+	align-items: center;
+    background-size: cover;
+    background-image: url("./art/background.png");
+}
+
+
+.container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 100%;
+    width:650px;
+    grid-gap: 0px;
+}
+
+.side
+{
+    max-width: 300px;
+    width: 100%;
+    background-color:#c4c4c4;
+}
+
+.side2
+{
+    align-items: center;
+    max-width: 350px;
+    width:100%;
+    background-color:#ebebeb
+}
+.main
+{
+    max-width:900px;
+    width:100%;
+    background-color:#ebebeb;
+}
+
+img.icon
+{
+    max-width:50%;
+    width:256px;
+}
+
+a, a.hover, a.visited
+{
+    color:#b00b69;
+}
