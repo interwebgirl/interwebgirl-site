@@ -1,13 +1,14 @@
-@font-face { font-family: petscop; src: url('./fonts/PetscopWide.ttf'); } 
+@font-face { font-family: petscop; src: url('./fonts/vcr.ttf'); } 
 
 body
 {
     font-family: petscop;
-    font-size: x-large;
+    font-size: large;
 	justify-content: center;
 	align-items: center;
     background-size: fill;
-    background-image: url("./art/background.png");
+    background-color: #000;
+    color:white
 }
 
 
@@ -25,7 +26,6 @@ body
 {
     max-width: 300px;
     width: 100%;
-    background-color:#c4c4c4;
 }
 
 .side2
@@ -33,13 +33,11 @@ body
     align-items: center;
     max-width: 350px;
     width:100%;
-    background-color:#ebebeb
 }
 .main
 {
     max-width:900px;
     width:100%;
-    background-color:#ebebeb;
 }
 
 img.icon
@@ -50,5 +48,5 @@ img.icon
 
 a, a.hover, a.visited
 {
-    color:#b00b69;
+    color:#facade;
 }
