@@ -1,14 +1,14 @@
-@font-face { font-family: petscop; src: url('./fonts/vcr.ttf'); } 
+@font-face { font-family: vcr; src: url('./fonts/vcr.ttf'); } 
 
 body
 {
-    font-family: petscop;
+    font-family: vcr;
     font-size: large;
 	justify-content: center;
 	align-items: center;
     background-size: fill;
-    background-color: #000;
-    color:white
+    background-color: #1e1e2e;
+    color:#cdd6f4
 }
 
 
@@ -20,12 +20,13 @@ body
     max-width: 100%;
     width:650px;
     grid-gap: 0px;
+    margin: auto;
 }
 
 .side
 {
-    max-width: 300px;
-    width: 100%;
+    max-width: 100%;
+    width: 300px;
 }
 
 .side2
@@ -34,10 +35,19 @@ body
     max-width: 350px;
     width:100%;
 }
+
 .main
 {
-    max-width:900px;
-    width:100%;
+    max-width:100%;
+    width:650px;
+    margin: auto;
+}
+
+.content
+{
+    background-color:#313244;
+    margin: auto;
+    border:1px solid #313244
 }
 
 img.icon
@@ -46,7 +56,12 @@ img.icon
     width:256px;
 }
 
-a, a.hover, a.visited
+a, a.hover, a.visited, h1, h2
 {
-    color:#facade;
+    color:#cba6f7;
+}
+
+.subtextthing
+{
+    color:#a6adc8
 }
